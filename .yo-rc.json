@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "prometheus",
+    "style": "scss",
+    "postcss": true
+  }
+}

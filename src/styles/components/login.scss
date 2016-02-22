@@ -1,0 +1,42 @@
+@import '../_colors.scss';
+
+/* login in button state*/
+.login{
+   margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.login.button{
+  height:60px;
+  width: 200px;
+  color:map-get($light-colors, "papaya");
+  background: map-get($dark-colors, "pomegranate");
+}
+.login.pill{
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+.login.form{
+  height: 600px;
+  width:500px;
+  background: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: darken(map-get($light-colors, "lace"), 1.5%);
+}
+
+.login.form{
+  h1{
+   color: map-get($dark-colors, "pomegranate");
+  }
+}
+
+.login{
+  .txt{
+    position: relative;
+    top: 30%;
+  }
+}

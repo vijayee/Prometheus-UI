@@ -1,0 +1,30 @@
+/*
+ if you can see white against it is dark otherwise it is light
+*/
+/*colors*/
+$dark-colors:(
+        "chocolate": #550000,
+        "merlot": #760005,
+        "strawberry":#fa392a,
+        "raspberry": #a61d25,
+        "cranberry": #b53743,
+        "salmon": #e67c6c,
+        "water":#6699cc,
+        "pomegranate": #b24a4a,
+        "jade" : #6cc4bd,
+        "grape": #916f6f
+);
+$light-colors:(
+        "apricot": #fc9e56,
+        "peach": #f8a058,
+        "watermelon":#ff6b6b,
+        "papaya":#ffebd8,
+        "cantoloupe": #ffb56b,
+        "graham": #f4d8c0,
+        "mandarin": #ffc290,
+        "tangarine":#ffb380,
+        "steel": #e1eaf1,
+        "lace": #fff7f5,
+        "linen": #fef0e3,
+        "beige": #faf1df
+);
