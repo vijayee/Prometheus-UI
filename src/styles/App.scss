@@ -31,7 +31,10 @@ body{
   background-color: white;
 }
 #content{
+  position:relative;
   flex: 1 0 auto; // needed to push header and footer into the right location
+  background-size: cover;
+  background-image: url(../images/stars.svg);
 }
 .semi-circle{
   background-color: white;
@@ -93,5 +96,10 @@ body{
   transform: translateX(50px);
   height:480px;
   width: auto;
+}
 
+.stars{
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }

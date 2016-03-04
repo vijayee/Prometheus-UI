@@ -5,7 +5,6 @@ require('styles/App.scss');
 
 var React = require('react');
 var flame= require('../images/flame.svg');
-console.log(flame)
 //var InlineSVG = require('svg-inline-react');
 //var Login= require('./login');
 //function logo() { return {__html: flame.content} }
@@ -24,7 +23,9 @@ var AppComponent = React.createClass( {
             <div className="sub-title">The Social Currency Network</div>
           </div>
         </header>
-        <div id="content"></div>
+        <div id="content">
+          <object className="stars" type="image/svg+xml" data="../images/stars.svg" ></object>
+        </div>
         <footer className="footer"></footer>
       </div>
     );
