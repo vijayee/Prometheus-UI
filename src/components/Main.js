@@ -4,10 +4,6 @@ require('styles/App.scss');
 
 
 var React = require('react');
-var flame= require('../images/flame.svg');
-//var InlineSVG = require('svg-inline-react');
-//var Login= require('./login');
-//function logo() { return {__html: flame.content} }
 
 var AppComponent = React.createClass( {
   render: function() {
@@ -25,6 +21,10 @@ var AppComponent = React.createClass( {
         </header>
         <div id="content">
           <object className="stars" type="image/svg+xml" data="../images/stars.svg" ></object>
+          <div id="start">
+            <button>Login</button>
+            <button>Sign Up</button>
+          </div>
         </div>
         <footer className="footer"></footer>
       </div>
