@@ -10,18 +10,18 @@ var topNavComponent= React.createClass({
       <nav>
         <div className="top-navigation">
           <div className="hamburger">
-            <img src={hamburger}/>
+            <img className="icon" src={hamburger}/>
           </div>
           <div className="branding">
             <div className="logo">
-              <img src={flame}/>
+              <img className="icon" src={flame}/>
             </div>
             <div className="title">
               Prometheus
             </div>
           </div>
           <div className="search">
-            <img src={magnifier} />
+            <img className="icon" src={magnifier} />
           </div>
         </div>
       </nav>

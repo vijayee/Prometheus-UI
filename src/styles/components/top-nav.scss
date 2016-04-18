@@ -1,8 +1,33 @@
 @import '../_colors.scss';
-@import '../_fonts.scss';
 
 .top-navigation{
-  height: 180px;
+  height: 75px;
   width: 100%;
   background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.icon{
+    height: 70px;
+    width:  70px;
+    margin:2.5px;
+}
+.logo .icon{
+  height: 60px;
+  width:  60px;
+  margin: 2.5px 10px 2.5px 10px;
+}
+.title{
+  font-family: Elephont;
+  font-size: 70px;
+  font-weight: bold;
+  color: map-get($dark-colors, "pomegranate");
+}
+
+.branding{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-grow: 1;
 }
